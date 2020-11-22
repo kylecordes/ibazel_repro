@@ -9,7 +9,6 @@ import { My000037Component } from './my.000037.component';
 import { My000038Component } from './my.000038.component';
 import { My000039Component } from './my.000039.component';
 import { My000040Component } from './my.000040.component';
-import { My000041Component } from './my.000041.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +18,6 @@ import { My000041Component } from './my.000041.component';
     My000038Component,
     My000039Component,
     My000040Component,
-    My000041Component,
   ],
   imports: [CommonModule],
   exports: [

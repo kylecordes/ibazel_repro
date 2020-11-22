@@ -3,27 +3,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { My000546Component } from './my.000546.component';
-import { My000547Component } from './my.000547.component';
-import { My000548Component } from './my.000548.component';
-import { My000549Component } from './my.000549.component';
-import { My000550Component } from './my.000550.component';
-import { My000551Component } from './my.000551.component';
-import { My000552Component } from './my.000552.component';
+import { My000473Component } from './my.000473.component';
+import { My000474Component } from './my.000474.component';
+import { My000475Component } from './my.000475.component';
+import { My000476Component } from './my.000476.component';
+import { My000477Component } from './my.000477.component';
+import { My000478Component } from './my.000478.component';
 
 @NgModule({
   declarations: [
-    My000546Component,
-    My000547Component,
-    My000548Component,
-    My000549Component,
-    My000550Component,
-    My000551Component,
-    My000552Component,
+    My000473Component,
+    My000474Component,
+    My000475Component,
+    My000476Component,
+    My000477Component,
+    My000478Component,
   ],
   imports: [CommonModule],
   exports: [
-    My000546Component,
+    My000473Component,
   ]
 })
 export class Module000078 { }

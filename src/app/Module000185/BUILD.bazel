@@ -1,0 +1,29 @@
+load("//tools:angular_ts_library.bzl", "ng_ts_library")
+
+package(default_visibility = ["//:__subpackages__"])
+
+ng_ts_library(
+    name = "Module000185",
+    srcs = [
+  "Module000185.module.ts",
+  "my.001115.component.ts",
+  "my.001116.component.ts",
+  "my.001117.component.ts",
+  "my.001118.component.ts",
+  "my.001119.component.ts",
+  "my.001120.component.ts"
+],
+    angular_assets = [
+  "my.001115.component.html",
+  "my.001116.component.html",
+  "my.001117.component.html",
+  "my.001118.component.html",
+  "my.001119.component.html",
+  "my.001120.component.html"
+],
+    tsconfig = "//src:tsconfig.json",
+    deps = [
+      "@npm//@angular/core",
+      "@npm//@angular/common",
+  ],
+)

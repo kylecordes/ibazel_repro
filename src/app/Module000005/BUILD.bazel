@@ -11,8 +11,7 @@ ng_ts_library(
   "my.000037.component.ts",
   "my.000038.component.ts",
   "my.000039.component.ts",
-  "my.000040.component.ts",
-  "my.000041.component.ts"
+  "my.000040.component.ts"
 ],
     angular_assets = [
   "my.000035.component.html",
@@ -20,8 +19,7 @@ ng_ts_library(
   "my.000037.component.html",
   "my.000038.component.html",
   "my.000039.component.html",
-  "my.000040.component.html",
-  "my.000041.component.html"
+  "my.000040.component.html"
 ],
     tsconfig = "//src:tsconfig.json",
     deps = [
