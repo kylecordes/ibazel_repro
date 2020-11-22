@@ -10,6 +10,8 @@ import { My000003Component } from './my.000003.component';
 import { My000004Component } from './my.000004.component';
 import { My000005Component } from './my.000005.component';
 import { My000006Component } from './my.000006.component';
+import { My000007Component } from './my.000007.component';
+import { My000008Component } from './my.000008.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { My000006Component } from './my.000006.component';
     My000004Component,
     My000005Component,
     My000006Component,
+    My000007Component,
+    My000008Component,
   ],
   imports: [CommonModule],
   exports: [

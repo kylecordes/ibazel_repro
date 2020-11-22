@@ -3,27 +3,31 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { My000021Component } from './my.000021.component';
-import { My000022Component } from './my.000022.component';
-import { My000023Component } from './my.000023.component';
-import { My000024Component } from './my.000024.component';
-import { My000025Component } from './my.000025.component';
-import { My000026Component } from './my.000026.component';
 import { My000027Component } from './my.000027.component';
+import { My000028Component } from './my.000028.component';
+import { My000029Component } from './my.000029.component';
+import { My000030Component } from './my.000030.component';
+import { My000031Component } from './my.000031.component';
+import { My000032Component } from './my.000032.component';
+import { My000033Component } from './my.000033.component';
+import { My000034Component } from './my.000034.component';
+import { My000035Component } from './my.000035.component';
 
 @NgModule({
   declarations: [
-    My000021Component,
-    My000022Component,
-    My000023Component,
-    My000024Component,
-    My000025Component,
-    My000026Component,
     My000027Component,
+    My000028Component,
+    My000029Component,
+    My000030Component,
+    My000031Component,
+    My000032Component,
+    My000033Component,
+    My000034Component,
+    My000035Component,
   ],
   imports: [CommonModule],
   exports: [
-    My000021Component,
+    My000027Component,
   ]
 })
 export class Module000003 { }

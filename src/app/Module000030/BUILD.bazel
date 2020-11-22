@@ -6,20 +6,24 @@ ng_ts_library(
     name = "Module000030",
     srcs = [
   "Module000030.module.ts",
-  "my.000185.component.ts",
-  "my.000186.component.ts",
-  "my.000187.component.ts",
-  "my.000188.component.ts",
-  "my.000189.component.ts",
-  "my.000190.component.ts"
+  "my.000247.component.ts",
+  "my.000248.component.ts",
+  "my.000249.component.ts",
+  "my.000250.component.ts",
+  "my.000251.component.ts",
+  "my.000252.component.ts",
+  "my.000253.component.ts",
+  "my.000254.component.ts"
 ],
     angular_assets = [
-  "my.000185.component.html",
-  "my.000186.component.html",
-  "my.000187.component.html",
-  "my.000188.component.html",
-  "my.000189.component.html",
-  "my.000190.component.html"
+  "my.000247.component.html",
+  "my.000248.component.html",
+  "my.000249.component.html",
+  "my.000250.component.html",
+  "my.000251.component.html",
+  "my.000252.component.html",
+  "my.000253.component.html",
+  "my.000254.component.html"
 ],
     tsconfig = "//src:tsconfig.json",
     deps = [
